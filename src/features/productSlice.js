@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import api, {
   PRODUCT_API,
   CATEGORY_PRODUCT_API,
-} from "../services/api";
+} from "../Services/api";
 
 // Fetch All Products
 export const fetchProducts = createAsyncThunk(
